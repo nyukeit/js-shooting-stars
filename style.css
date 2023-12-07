@@ -7,3 +7,23 @@ body {
   background-color: black;
   overflow: hidden;
 }
+
+.hidden {
+  display: none;
+}
+
+.modal-active {
+  background-color: white;
+  padding: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#restart {
+  background-color: blue;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+}
